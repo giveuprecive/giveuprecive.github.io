@@ -100,7 +100,7 @@
 <meta property="og:url" content="http://blog.zkyplus.site/2017/06/06/unimrcp/index.html">
 <meta property="og:site_name" content="Summer&#39;s Notes">
 <meta property="og:description" content="freeswitch 调用 unimrcp 进行实时转义参考内容：博客：http://blog.leanote.com/post/littlefish/mod_unimrcp官方：https://freeswitch.org/confluence/display/FREESWITCH/mod_unimrcphttps://freeswitch.org/confluence/display/FREE">
-<meta property="og:updated_time" content="2017-06-24T13:47:53.846Z">
+<meta property="og:updated_time" content="2017-06-24T14:37:43.706Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="unimrcp">
 <meta name="twitter:description" content="freeswitch 调用 unimrcp 进行实时转义参考内容：博客：http://blog.leanote.com/post/littlefish/mod_unimrcp官方：https://freeswitch.org/confluence/display/FREESWITCH/mod_unimrcphttps://freeswitch.org/confluence/display/FREE">
@@ -402,7 +402,7 @@
 <h1 id="freeswitch开发指南"><a href="#freeswitch开发指南" class="headerlink" title="freeswitch开发指南"></a>freeswitch开发指南</h1><p>freeswitch网上有不少资料，大多是跟杜老大相关的，或者书里讲过的。之前为了asr，粗略的读了一遍，受益匪浅。书里讲的很详细，很全面，个人觉得唯一缺少的是怎么入门开发，开发自己的modle。本人完全不懂c、c++语言，所以动起手来非常麻烦，但是只能硬着头皮来。</p>
 <h2 id="主要分了一下四步吧。"><a href="#主要分了一下四步吧。" class="headerlink" title="主要分了一下四步吧。"></a>主要分了一下四步吧。</h2><p><em>下载vs2010或者2015</em><br><em>下载源码</em><br><em>将代码导入到vs</em><br><em>部署到服务器测试</em></p>
 <hr>
-<p>24,jun,2017 update;<br>&emsp;&emsp;这种方式实在不行，没有c和c++的基础真心搞不定，vs那个ide实在太难用了，版本又多，还互不兼容。<br>后来只能通过修改unimrcp模块的一个.c文件，在打印日志的时候，调用操作系统自带的curl的库，进行将结果推到一个spring-boot的项目上，实现将连续的识别结果打印出来。</p>
+<p>24,jun,2017 update;<br>&emsp;&emsp;这种方式实在不行，没有c和c++的基础真心搞不定，vs那个ide实在太难用了，版本又多，还互不兼容。<br>后来只能通过修改unimrcp模块的一个.c文件，在打印日志的时候，调用操作系统自带的curl的库，进行将结果推到一个spring-boot的项目上，实现将连续的识别结果打印出来。<br>后面再把代码贴出来。</p>
 
       
     </div>
